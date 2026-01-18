@@ -1,3 +1,3 @@
-the python form third edition of eric matthes
+<span style="color:green">The python form third edition of eric matthes</span>
 <br>
-<img src="https://github.com/kashish0903/thepython/blob/main/thecrashcourse.webp?raw=true" alt="Logo" width="200"/>
+
