@@ -88,3 +88,9 @@ for animal in animals:
     print(f"A {animal} would make a great pet.")
 print("\nAny of these animals would make a great pet!")
 print("\n" + "="*50 + "\n")
+num = []
+a = int(input('enter the number: '))
+num.append(a)
+b = int(input('enter the number: '))
+num.append(b)
+print(sum(num))
