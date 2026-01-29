@@ -107,3 +107,48 @@ if 'papaya' in favorite_fruits:
     
 if 'orange' in favorite_fruits:
     print('You really like oranges!')
+#the new 5.8 execise.
+lists=['KASHISH','kripesh','roshan','admin','deepson']
+for user in lists:
+    if user == "admin":
+        print('hello,sir can i help you.')
+    else:
+        print(f"hello,{user},thank for log ")
+print("")
+
+print("===== no user condition ====")   
+user=[]
+if user:
+    for users in user:
+        print(f"hello, {user}")
+    else:
+        print("we need to find some user")
+print("")
+ 
+print("===== checking user name==== == ")
+# Keep your lists as is
+current_users = ['KASHISH', 'kripesh', 'roshan', 'admin', 'deepson']
+new_users = ['rakesh', 'shyam', 'sohan', 'admin', 'KASHISH']
+
+# ADD this line for case-insensitive comparison:
+current_users_lower = [user.lower() for user in current_users]
+
+# CHANGE this loop (was: for new_users in current_users):
+for new_user in new_users:  # Different variable name!
+    if new_user.lower() in current_users_lower:
+        print(f"Username '{new_user}' is taken.")
+    else:
+        print(f"Username '{new_user}' is available.")
+#oridinary number.
+print("===== Ordinal Numbers =====")
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]  # Use integers, not strings
+
+for number in numbers:
+    if number == 1:
+        print("1st")
+    elif number == 2:
+        print("2nd")
+    elif number == 3:
+        print("3rd")
+    else:
+        print(f"{number}th")
