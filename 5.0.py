@@ -133,14 +133,13 @@ for user in lists:
 print("")
 
 print("===== no user condition ====")   
-user=[]
+user=[""]  # empty list
 if user:
     for users in user:
         print(f"hello, {user}")
     else:
         print("we need to find some user")
 print("")
- 
 print("===== checking user name==== == ")
 
 
